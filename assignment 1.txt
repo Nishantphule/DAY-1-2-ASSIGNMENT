@@ -1,8 +1,39 @@
-DiFference between HTTP/1.1 and HTTP/2 .
-
+ QUESTION NO. 1-  
+ DiFference between HTTP/1.1 and HTTP/2 .
+ ANSWER - 
  HTTP/2 IS FASTER THEN HTTP/1.1 IN LOADING ANY PAGE FROM ANY BROWSER.
  HTTP/2 IS WIDELY SUPPORTED BY MOST BROWSERS AND SERVERS.
  HTTP/1.1 ALLOWS ONE REQUEST PER CONNECTION , WHEREAS HTTP/2 ALLOWS MULTIPLE REQUESTS FROM ONE CONNECTION
  HTTP/2 INCLUDES HEADER COMPRESSION BY DEFAULT , WHILE HTTP/1.1 DOES NOT INCLUDE IT WHICH CAUSE A LOT DUPLICATE DATA BEING UNCOMPRESSED.
  HTTP/2 IS BINARY INSTEAD OF TEXTUAL
  HTTP/2 ALLOWS SERVERS TO PUSH RESPONSES PROACTIVELY INTO CLIENT CACHES.
+
+
+
+
+QUESTION NO. 2-  
+OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT.
+ANSWER -
+Objects are the most important data-type and forms the building blocks for modern JavaScript.
+These objects are quite different from JavaScript’s primitive data-types,primitive data-types all store a single value while each object may contain any combination of these primitive data-types.
+Objects can hold many values in form of Key: value pair.
+These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+Every object has some property associated with some value. These values can be accessed using these properties associated with them.
+
+CODE - 
+var myCar = new Object();
+myCar.make = 'BMW';
+myCar.model = 'X4';
+myCar.year = 2014;
+myCar.wheels = 4;
+//After creating myCar object, the value inside the object can be accessed using keys.
+//i.e.
+console.log(myCar.year)
+
+//Output: 2014
+
+//These values can be accessed using brackets notation also.
+
+console.logmyCar['year']
+
+//Output: 2014
