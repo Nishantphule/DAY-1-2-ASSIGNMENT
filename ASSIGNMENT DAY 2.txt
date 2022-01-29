@@ -1,5 +1,5 @@
 QUESTION NO. - 1
-DIFFERENCE BETWEEN BROWSER JS(CONSOLE) AND NODE JS
+DIFFERENCE BETWEEN BROWSER JS(CONSOLE) AND NODE JS.
 
 ANSWER - 
 1. In browser “window” is a predefined global object which has functions and attributes, where as Nodejs doesn’t have it.
@@ -10,8 +10,9 @@ ANSWER -
 
 
 
+
 QUESTION NO. - 2
-watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf.
 
 ANSWER - 
 1. THE PARSE HTML AND PARSE CSS COMBINED DATA STRUCTURE WILL FORM TO THE RENDER TREE . THEN LAYOUT OF RENDER TREE AND PAINTING DESIGNING WILL TAKE PLACE.
@@ -22,8 +23,9 @@ ANSWER -
 
 
 
+
 QUESTION NO. - 3
-Execute the below code and write your description in txt file
+Execute the below code and write your description in txt file.
 typeof(1)
 typeof(1.1)
 typeof('1.1')
@@ -35,6 +37,23 @@ typeof({})
 typeof(NaN)
 
 ANSWER - 
-E:\GITHUB\DAY-1 & 2-ASSIGNMENT\ASSIGNMENT DAY 2\script.js
+// It is a number datatype. any positive or negative interger or float is a number.
+console.log(typeof(1))
+// It is a number datatype.any positive or negative interger or float is a number.
+console.log(typeof(1.1))
+// It is a string datatype.any thing in a single or double quotation marks is a string.
+console.log(typeof('1.1'))
+// It is a boolean datatype . true or false is called as boolean.
+console.log(typeof(true))
+//It is a object datatype.The value null represents the intentional absence of any object value.
+console.log(typeof(null))
+// It is a undefined datatype. A variable that has not been assigned a value is of type undefined.
+console.log(typeof(undefined))
+// It is a object datatype.The object is a complex data type that allows you to store collections of data.
+ console.log(typeof([]))
+//It is a object datatype.The object is a complex data type that allows you to store collections of data.
+console.log(typeof({}))
+// It is a number datatype.NaN is actually technically a numeric data type.
+console.log(typeof(NaN))
 
 
