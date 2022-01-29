@@ -34,6 +34,6 @@ console.log(myCar.year)
 
 //These values can be accessed using brackets notation also.
 
-console.logmyCar['year']
+console.log(myCar['year'])
 
 //Output: 2014
